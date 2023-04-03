@@ -8,10 +8,14 @@ specifiers:
   '@tsconfig/recommended': ^1.0.2
   '@types/luxon': ^3.2.0
   '@types/react': ^18.0.32
-  luxon: ^3.3.0
+  luxon: '>=3.0.0'
   parcel: ^2.8.3
-  react: ^18.2.0
+  react: '>=16.0.0'
   typescript: ^5.0.3
+
+dependencies:
+  luxon: 3.3.0
+  react: 18.2.0
 
 devDependencies:
   '@parcel/core': 2.8.3
@@ -21,9 +25,7 @@ devDependencies:
   '@tsconfig/recommended': 1.0.2
   '@types/luxon': 3.2.0
   '@types/react': 18.0.32
-  luxon: 3.3.0
   parcel: 2.8.3
-  react: 18.2.0
   typescript: 5.0.3
 
 packages:
@@ -1285,7 +1287,6 @@ packages:
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
-    dev: true
 
   /json-parse-even-better-errors/2.3.1:
     resolution: {integrity: sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w==}
@@ -1412,12 +1413,12 @@ packages:
     hasBin: true
     dependencies:
       js-tokens: 4.0.0
-    dev: true
+    dev: false
 
   /luxon/3.3.0:
     resolution: {integrity: sha512-An0UCfG/rSiqtAIiBPO0Y9/zAnHUZxAMiCpTd5h2smgsj7GGmcenvrvww2cqNA8/4A5ZrD1gJpHN2mIHZQF+Mg==}
     engines: {node: '>=12'}
-    dev: true
+    dev: false
 
   /mdn-data/2.0.14:
     resolution: {integrity: sha512-dn6wd0uw5GsdswPFfsgMp5NSB0/aDe6fK94YJV/AJDYXL6HVLWBsxeq7js7Ad+mU2K9LAlwpk6kN2D5mwCPVow==}
@@ -1605,7 +1606,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: true
+    dev: false
 
   /regenerator-runtime/0.13.11:
     resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}

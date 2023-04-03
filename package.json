@@ -23,9 +23,7 @@
     "@tsconfig/recommended": "^1.0.2",
     "@types/luxon": "^3.2.0",
     "@types/react": "^18.0.32",
-    "luxon": "^3.3.0",
     "parcel": "^2.8.3",
-    "react": "^18.2.0",
     "typescript": "^5.0.3"
   },
   "peerDependencies": {
