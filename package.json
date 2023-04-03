@@ -1,0 +1,33 @@
+{
+  "name": "@antisoftwareclub/numbers",
+  "version": "1.0.0",
+  "description": "",
+  "packageManager": "pnpm@7.18.2",
+  "main": "dist/index.js",
+  "source": "src/index.ts",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "anti software software club LLC <support@cohost.org> (http://antisoftware.club/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/core": "^2.8.3",
+    "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@tsconfig/create-react-app": "^1.0.3",
+    "@tsconfig/recommended": "^1.0.2",
+    "@types/luxon": "^3.2.0",
+    "@types/react": "^18.0.32",
+    "parcel": "^2.8.3",
+    "typescript": "^5.0.3"
+  },
+  "peerDependencies": {
+    "luxon": ">=3.0.0",
+    "react": ">=16.0.0"
+  }
+}
